@@ -1,0 +1,1 @@
+export { Building, BuildingGateway } from "./domain/building"

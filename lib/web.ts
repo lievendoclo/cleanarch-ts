@@ -1,0 +1,1 @@
+export { addBuildingEndpoints } from "./web/buildingEndpoints"
