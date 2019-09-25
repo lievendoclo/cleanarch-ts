@@ -1,5 +1,5 @@
 export interface CreateBuilding {
-    createBuilding(request: CreateBuildingRequest): CreateBuildingResponse;
+    createBuilding: (request: CreateBuildingRequest) => CreateBuildingResponse;
 }
 
 export interface CreateBuildingRequest {

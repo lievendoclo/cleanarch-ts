@@ -4,5 +4,5 @@ export interface Building {
 }
 
 export interface BuildingGateway {
-    createBuilding(building: Building): Building;
+    createBuilding: (building: Building) => Building;
 }

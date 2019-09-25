@@ -2,9 +2,7 @@ import { CreateBuilding, CreateBuildingRequest, CreateBuildingResponse } from ".
 import { Building, BuildingGateway } from "../domain";
 
 export class CreateBuildingImpl implements CreateBuilding {
-    private readonly buildingGateway: BuildingGateway;
-
-    constructor(buildingGateway: BuildingGateway) {
+    constructor(private readonly buildingGateway: BuildingGateway) {
         this.buildingGateway = buildingGateway;
     }
 
