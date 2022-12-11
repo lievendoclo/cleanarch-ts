@@ -38,6 +38,6 @@
   "license": "Apache",
   "dependencies": {
     "@types/express": "^4.17.1",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
